@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="מוניות פסגת זאב - שירותי מוניות בירושלים והסביבה. הזמנת מונית לנתב\"ג, הסעות לכל הארץ, שירות גוי שבת ועוד.">
+    <title>מוניות פסגת זאב</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-image: url('https://www.transparenttextures.com/patterns/cream-pixels.png');
+            background-color: #fff8e1;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        header {
+            background: linear-gradient(90deg, #ffeb3b, #ffc107);
+            padding: 1.5rem;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+            color: #d32f2f;
+        }
+        header h2 {
+            margin: 0.5rem 0 0 0;
+            font-size: 1.3rem;
+        }
+        .buttons {
+            margin-top: 1rem;
+        }
+        .buttons a {
+            display: inline-block;
+            margin: 0.5rem;
+            padding: 0.7rem 1.2rem;
+            background: #4caf50;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
+            transition: background 0.3s;
+        }
+        .buttons a:hover {
+            background: #45a049;
+        }
+        .buttons a.call {
+            background: #ff9800;
+        }
+        .buttons a.call:hover {
+            background: #fb8c00;
+        }
+        .image-container {
+            text-align: center;
+            margin-top: 1rem;
+        }
+        .image-container img {
+            width: 90%;
+            max-width: 600px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+        }
+        section {
+            padding: 1.5rem;
+            background-color: rgba(255, 255, 255, 0.9);
+            margin: 1rem auto;
+            max-width: 800px;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+        }
+        footer {
+            background: #eee;
+            padding: 1rem;
+            text-align: center;
+            font-size: 0.9rem;
+            color: #555;
+        }
+        .accessibility-toggle {
+            position: fixed;
+            top: 10px;
+            left: 10px;
+            background: #fff;
+            border-radius: 10px;
+            padding: 0.5rem 1rem;
+            font-size: 0.9rem;
+            font-weight: bold;
+            color: #333;
+            box-shadow: 0 0 5px rgba(0,0,0,0.2);
+            cursor: pointer;
+            z-index: 1000;
+        }
+        body.high-contrast {
+            background: #000 !important;
+            color: #fff !important;
+        }
+        body.high-contrast header,
+        body.high-contrast section,
+        body.high-contrast footer {
+            background: #111 !important;
+            color: #fff !important;
+        }
+        body.high-contrast .buttons a {
+            background: #000 !important;
+            color: #0f0 !important;
+            border: 1px solid #0f0;
+        }
+    </style>
+</head>
+<body>
+    <div class="accessibility-toggle" onclick="toggleAccessibility()">נגישות</div>
+    <header>
+        <h1>מוניות פסגת זאב</h1>
+        <h2>מוניות שמביאות אותך ליעד בבטחה ובנוחות!</h2>
+        <div class="buttons">
+            <a href="https://wa.me/972543119830" target="_blank">שלחו הודעה בוואטסאפ</a>
+            <a href="tel:0543119830" class="call">התקשרו עכשיו</a>
+        </div>
+    </header>
+
+    <div class="image-container">
+        <!--img src="https://cdn.pixabay.com/photo/2016/11/29/03/53/auto-1868726_960_720.jpg" alt="מונית"-->
+        <img src="https://media.istockphoto.com/id/1298649757/photo/london-black-cab-taxi-sign.jpg?s=1024x1024&w=is&k=20&c=P_lfN5nz2IcLO7l2QAKDYU1bI5S2X7oYM-k9zG2fNZA=" alt="מונית2">
+    </div>
+
+    <section>
+        <h3>שירותי המוניות שלנו</h3>
+        <p>
+            שירותי מוניות בין עירוניים לתושבי ירושלים והסביבה - מוניות קטנות וגדולות, מוניות מפוארות וממוזגות.<br>
+            נהגי מונית גוי שבת שעומדים לרשותכם!<br>
+            מוניות ספיישל לכל מקום בארץ, מוניות לנתב"ג, הסעות לטיולים, הסעות תיירים ועוד.<br>
+            אצלנו תוכלו ליהנות מנסיעה מהנה ובטוחה לכל יעד שתבחרו.<br>
+            להזמנת מונית חייגו כעת - שירות מעולה מובטח!
+        </p>
+    </section>
+
+    <footer>
+        &copy; 2025 מוניות פסגת זאב | כל הזכויות שמורות
+    </footer>
+
+    <script>
+        function toggleAccessibility() {
+            document.body.classList.toggle('high-contrast');
+        }
+    </script>
+</body>
+</html>
