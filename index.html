@@ -8,7 +8,7 @@
     <style>
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background: #fff8e1;
+            background: url('https://www.transparenttextures.com/patterns/white-carbon.png');
             margin: 0;
             padding: 0;
             color: #333;
@@ -93,6 +93,20 @@
             cursor: pointer;
             z-index: 1000;
         }
+        .lang-switch {
+            position: fixed;
+            bottom: 10px;
+            right: 10px;
+            background: #fff;
+            border-radius: 10px;
+            padding: 0.5rem 1rem;
+            font-size: 0.9rem;
+            font-weight: bold;
+            color: #333;
+            box-shadow: 0 0 5px rgba(0,0,0,0.2);
+            cursor: pointer;
+            z-index: 1000;
+        }
         body.high-contrast {
             background: #000 !important;
             color: #fff !important;
@@ -120,25 +134,23 @@
             padding: 1rem;
             background-color: #fffde7;
         }
-        .lang-switch {
-            position: fixed;
-            top: 10px;
-            right: 10px;
-            background: #fff;
-            border-radius: 10px;
-            padding: 0.5rem 1rem;
-            font-size: 0.9rem;
-            font-weight: bold;
-            color: #333;
-            box-shadow: 0 0 5px rgba(0,0,0,0.2);
-            cursor: pointer;
-            z-index: 1000;
+        .app-icons {
+            margin-top: 1rem;
+            text-align: center;
+        }
+        .app-icons a {
+            margin: 0 0.5rem;
+            display: inline-block;
+        }
+        .app-icons img {
+            width: 40px;
+            height: 40px;
         }
     </style>
 </head>
 <body>
     <div class="accessibility-toggle" onclick="toggleAccessibility()">נגישות</div>
-    <div class="lang-switch" onclick="window.location.href='1   §   .html'">English</div>
+    <div class="lang-switch" onclick="window.location.href='english.html'">English</div>
     <header>
         <h1>מוניות פסגת זאב</h1>
         <h2>מוניות שמביאות אותך ליעד בבטחה, בנוחות ובמקצועיות מעל 40 שנה!</h2>
@@ -149,30 +161,4 @@
     </header>
 
     <div class="image-container">
-        <img src="https://cdn.pixabay.com/photo/2017/03/12/14/41/taxi-2131363_1280.jpg" alt="מונית">
-    </div>
-
-    <section>
-        <h3>השירותים שלנו</h3>
-        <div class="services-list">
-            <div class="service-item">עבודה עם המגזר העסקי – הסעות לעובדים</div>
-            <div class="service-item">שירותי מוניות בין עירוניים</div>
-            <div class="service-item">מוניות לנתב"ג</div>
-            <div class="service-item">הסעות תיירים</div>
-            <div class="service-item">הסעות לטיולים</div>
-            <div class="service-item">הסעות לאירועים</div>
-            <div class="service-item">תיאום נסיעות מראש ותכנון מסלולים מותאמים</div>
-        </div>
-    </section>
-
-    <footer>
-        &copy; 2025 מוניות פסגת זאב | כל הזכויות שמורות
-    </footer>
-
-    <script>
-        function toggleAccessibility() {
-            document.body.classList.toggle('high-contrast');
-        }
-    </script>
-</body>
-</html>
+        <img src="https://cdn.pixabay.com/photo/2016/10/06/22/16/taxi
